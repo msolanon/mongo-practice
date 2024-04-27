@@ -24,7 +24,7 @@ class App {
     }
   
     routes() {
-      this.express.use(require("./routes/routes"));
+      this.express.use(require("./src/routes/routes"));
     }
   }
   module.exports = new App().express;

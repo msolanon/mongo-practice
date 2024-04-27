@@ -1,3 +1,3 @@
 module.exports = {
-    uri: "mongodb://localhost:27017"
+    uri: "mongodb+srv://<usuario>:<clave>@<url_servidor>/"
 };
