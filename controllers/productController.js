@@ -41,7 +41,7 @@ class ProductController {
         } catch (err) {
             res
                 .status(500)
-                .send({ message: "Error cant find product id=" + id });
+                .send({ message: "Error, cant find product id=" + id });
         };
     };
 
@@ -66,7 +66,7 @@ class ProductController {
         }
         catch (err) {
             res.status(500).send({
-                message: "Error actualizando el product con id=" + id
+                message: "Error update product id=" + id
             });
         }
     };
